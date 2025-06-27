@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+}
+img{
+  user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+}
+.nav-bar{
+  display: flex;
+}
+.nav-icon{
+  width: 40px;
+  height: 40px;
+}
+.nav-icon-label{
+  font-size: 16px;
+  font-weight: 500;
+  color:#1876D2;
+  margin-left: 8px;
+}
+.nav-icon-div{
+  display: flex;
+  align-items: center;
+  margin-right: 100px;
+}
+.cat-div{
+  display: flex;
+  align-items: center;
+}
+.hamburger-menu{
+  width: 22px;
+  height: 22px;
+  cursor: pointer;
+}
+.cat-label{
+  font-size: 14px;
+  margin-left: 10px;
+}
+.search-bar-div{
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+}
+.search-bar{
+  height: 30px;
+  width: 280px;
+  font-size: 16px;
+  background-color: #EEEEEE;
+  border: none;
+  padding: 5px 20px;
+  border-radius: 50px 0px 0px 50px;
+}
+.search-bar::placeholder{
+  font-size: 15px;
+}
+.search-icon-div{
+  background-color: #25A0FF;
+  height: 40px;
+  width: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 0px 50px 50px 0px;
+}
+.search-bar:focus{
+  outline: none;
+  box-shadow: none;
+}
+.search-icon{
+  width: 22px;
+  height: 22px;
+}
+.right-items{
+  display: flex;
+  align-items: center;
+}
+.mode-div{
+  background-color: #EEEEEE;
+  display: flex;
+  align-items: center;
+  border-radius: 50px;
+  width: 44px;
+  cursor: pointer;
+}
+.light-img{
+  width: 23px;
+}
+.mode-color{
+  background-color: #25A0FF;
+  width: 20px;
+  height: 20px;
+  border-radius: 100px;
+}
+.notify-div{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 15px;
+  cursor: pointer;
+}
+.notify-icon{
+  width: 20px;
+  height: 20px;
+}
+.unseen-div{
+  background-color: red;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  font-size: 7px;
+  height: 12px;
+  width: 12px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: 1px solid white;
+  margin-top: -3px;
+}
+.profile-div{
+  background-color: #dcdcdc;
+  font-size: 6px;
+  font-weight: 500;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  height: 30px;
+  padding: 0px 2px;
+  cursor: pointer;
+}
